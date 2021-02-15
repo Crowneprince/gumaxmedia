@@ -1,0 +1,488 @@
+body{
+font-family: 'Montserrat', sans-serif;
+color: #2b2d2f;
+letter-spacing: 1px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+
+h1{
+  font-size: 2em;
+  text-align: center;
+}
+
+h2{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1em;
+  font-weight: 500;
+}
+
+hr{
+  width: 100%;
+}
+
+/* Navigation Section */
+
+.brandname:hover{
+  color: #2b2d2f;
+}
+
+.brandimg{
+  width: 8%;
+}
+
+
+
+/* Countdown Timer */
+.countcontent{
+background-image: url("../images/seed.jpg");
+color: #fff;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 40px;
+background-size: cover;
+background-position: center;
+line-height: 0.9;
+}
+
+.countext{
+  display: block;
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-shadow: 2px 2px #000;
+}
+
+.countdate{
+  display: block;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #FFF200;
+  text-shadow: 2px 2px #000;
+}
+
+#countdown{
+  font-size: 5rem;
+  font-weight: 700;
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 20rem;
+  text-shadow: 2px 2px #000;
+}
+
+.dmhs{
+  color: #FFF200;
+  font-weight: 700;
+  word-spacing: 20px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 10px;
+  text-shadow: 1px 1px #000;
+}
+
+.days{
+  left: 24rem;
+}
+
+.minutes{
+  left: 33.5rem;
+}
+
+.hours{
+  left: 44.5rem;
+}
+
+.seconds{
+  left: 54rem;
+}
+
+
+
+/* Home Banner */
+
+.quote{
+  color: #000;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  display: inline-block;
+  width: 85%;
+}
+
+.signature{
+width: 20%;
+}
+
+.banner{
+  background-image: url("../images/sunset3.jpg");
+  background-size: cover;
+  background-position: right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bannertext{
+text-align: center;
+}
+
+.headtext{
+font-family: 'Playfair Display', serif;
+font-weight: normal;
+font-size: 3em;
+display: inline-block;
+}
+
+.navitems{
+  font-size: 1rem;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.menu{
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.menulink{
+  color: #2b2d2f;
+  margin: 0px 5px 0px 5px;
+}
+
+.menulink:hover{
+color: #ED1C24;
+}
+
+.menulink:active{
+  color: #ED1C24;
+}
+
+
+
+/* Video Section */
+.video{
+text-align: center;
+background-color: #464646;
+}
+
+
+
+/* Book Section */
+.booksection{
+  padding-top: 20px;
+  background-color: #464646;
+  color: #fff;
+}
+
+.booktext{
+margin: auto;
+padding-left: 40px;
+}
+
+
+/* Author Section */
+.authorsection{
+  background-color: #fff;
+}
+
+.authortext{
+  margin: auto;
+  padding-right: 30px;
+}
+
+.authorimg{
+  width: 100%;
+}
+
+
+/* Family Section */
+
+.familysection{
+  background-color: #464646;
+  color: #fff;
+}
+
+.familytext{
+margin: auto;
+padding-left: 50px;
+}
+
+.familyimg{
+  width: 100%;
+}
+
+.famlist{
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* Education Section */
+.educationsect{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.eduitems{
+  justify-content: space-between;
+}
+
+.edimg{
+width: 100%;
+}
+
+.edheading{
+  text-align: center;
+}
+
+.edpar{
+  text-align: center;
+}
+
+/* Business section */
+
+.business_section{
+background-color: #464646;
+color: #fff;
+padding: 0px 20px 50px 20px;
+}
+
+.busgrp{
+  text-align: center;
+}
+
+.busheader{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.bustitle{
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.busimg{
+  width: 60%;
+  border-radius: 100%;
+  padding-bottom: 15px;
+}
+
+.toprow{
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.bottomrow{
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.bussiness_sites{
+color: #ED1C24;
+font-weight: 700;
+font-size: 0.8rem;
+}
+
+.bussiness_sites:hover{
+  color: #FFF200;
+  text-decoration: none;
+}
+
+
+.campusimg{
+  background-image: url(../images/campus.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 220px;
+}
+
+.specimg{
+  background-image: url(../images/specs.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 220px;
+}
+
+.bookimg{
+  width: 100%;
+}
+
+
+/* Form Section */
+
+footer{
+  background-color: #fff;
+  display: block;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.subscribe{
+margin-top: 30px;
+}
+
+.subscribetext{
+  text-align: center;
+  font-weight: 500;
+}
+
+form input{
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: #a8a8a8;
+  width: 20rem;
+}
+
+form label{
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.formitems{
+  justify-content: center;
+}
+
+.divheader{
+  text-align: center;
+}
+
+.firstname{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.lastname{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submitgrp{
+  text-align: center;
+}
+
+
+.submitbutton{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  background-color: #ED1C24;
+  width: 26rem;
+}
+
+.submitbutton:hover{
+  background-color: #FFF200;
+}
+
+/* Social Section */
+
+.icon{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.socials{
+  text-align: center;
+}
+
+.socimg{
+  width: 50px;
+}
+
+.footerinfo{
+  text-align: center;
+}
+
+.footertext{
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.sectimg img{
+  width: 100%;
+}
+
+.theauthor{
+  background-color: #f2f2f2;
+}
+
+.subtext{
+  margin-bottom: 40px;
+}
+
+.educationwrap{
+  display: flex;
+  justify-content: space-around;
+}
+
+.edpar{
+  flex-basis: 50%;
+}
+
+.edimg{
+  flex-basis: 20%;
+}
+
+.edimg img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.busimg img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.buswrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.bustrio{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.busduo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.gpies{
+  flex-basis: 30%;
+}
+
+.gcpa{
+  flex-basis: 30%;
+}
+
+.git{
+  flex-basis: 30%;
+}
+
+.gcg{
+  flex-basis: 30%;
+}
+
+.gvg{
+  flex-basis: 30%;
+}
+
+.bushead{
+  text-align: center;
+}
+
+.edpar p{
+  margin: 0px;
+}
